@@ -7,7 +7,7 @@ Dự án **WebBaiTap** được xây dựng nhằm phục vụ học tập và t
 - HTML5, CSS3
 - JavaScript
 - PHP 
-- MySQL (tùy chọn, nếu bạn dùng database)
+- MySQL 
 
 ## Cách chạy dự án
 1. Clone repository:
