@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header .banner {
+    width: 100%;
+    height: 30vh; /* 30% chiều cao màn hình */
+    background: url("images/banner.jpg") no-repeat center center;
+    background-size: cover; /* Kéo cho vừa ngang, tự co dọc */
+}
+
+.header .banner img {
+    width: 100%;     /* tràn hết chiều ngang */
+    height: 30vh;    /* chỉ chiếm 30% chiều cao màn hình */
+    object-fit: cover; /* không bị méo ảnh */
+    display: block;
+}
+
+
+.header .info {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.header .search {
+    position: absolute;
+    top: 10px;
+    
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.header .search input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+.header .search input:focus {
+    border-color: #2563eb;
+}
+.header .search button {
+    padding: 8px 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.header .search button:hover {
+    background: #1d4ed8;
+}
+
+/* Menu */
+.menu {
+    background: #2563eb;
+    padding: 10px 20px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu ul li {
+    margin-right: 20px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu ul li a:hover {
+    color: #dbeafe;
+}
+
+/* Content */
+.content {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.sidebar {
+    width: 10%;
+    background: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.sidebar ul li a:hover {
+    color: #2563eb;
+}
+.main {
+    width: 90%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.main h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+.main p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Footer */
+.footer {
+    background: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer a:hover {
+    color: #dbeafe;
+}
