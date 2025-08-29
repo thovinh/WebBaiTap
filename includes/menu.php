@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Bài Tập</title>
     <link rel="stylesheet" href="css/style.css"> <!-- Gắn file CSS -->
+    
 </head>
 <body>
 
@@ -16,8 +17,12 @@
         <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a></li>
         <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
         <li><a href="https://hocwebchuan.com/" target="_blank">Hocwebchuan</a></li>
+        
+        
+    
     </ul>
 </div>
+
 
 </body>
 </html>
